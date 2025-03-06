@@ -1,0 +1,11 @@
+dag {
+Expectancy [pos="1.000,1.000"]
+Reaction [pos="3.000,0.000"]
+State_State_Expression [pos="2.000,0.000",label="State/State Expression"]
+Triggering_Situation [pos="0.000,0.000",label="Triggering Situation"]
+Expectancy -> State_State_Expression
+State_State_Expression -> Reaction
+Triggering_Situation -> Expectancy
+Triggering_Situation -> State_State_Expression
+}
+
